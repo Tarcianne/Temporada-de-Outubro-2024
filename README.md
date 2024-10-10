@@ -1,2 +1,4 @@
 # Temporada-de-Outubro-2024
-São projetos básicos.
+Seja bem-vindo(a)
+São projetos básicos de uma aluna do ensino médio.
+
