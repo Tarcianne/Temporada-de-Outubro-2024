@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela com Estilo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Tabela de Favoritos</h1>
+
+<table>
+    <tr>
+        <th colspan="3">Os Principais</th>
+    </tr>
+    <tr>
+        <th>Jogos</th>
+        <th>Filmes</th>
+        <th>Séries</th>
+    </tr>
+    <tr>
+        <td rowspan="2">POU e MOU</td>
+        <td>A bela e a fera</td>
+        <td>O Poço</td>
+    </tr>
+    <tr>
+        <td>Cinderela</td>
+        <td>O Poço 2</td>
+    </tr>
+    <tr>
+        <td>Counter strick</td>
+        <td>Os 3 mosqueteiros</td>
+        <td>Raio Negro</td>
+    </tr>
+</table>
+
